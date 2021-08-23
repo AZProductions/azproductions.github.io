@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="color: rgb(255,255,255);background: #000000;">
 
 <head>
     <meta charset="utf-8">
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="assets/css/Testimonials.css">
 </head>
 
-<body style="border-color: rgb(91,96,101);border-top-color: rgb(33,;border-right-color: 37,;border-bottom-color: 41);border-left-color: 37,;background: rgb(0,0,0);font-family: Roboto, sans-serif;">
+<body style="background: rgb(0,0,0);color: rgb(255,255,255);">
     <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean" style="background: rgb(0,0,0);color: var(--bs-white);">
         <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/drawingdark.svg" style="width: 50px;height: 50px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgb(255,255,255);background: #000000;border-color: rgb(255,255,255);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="border-color: rgb(255,255,255);color: rgb(255,255,255);">
                         <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="currentColor"></path>
@@ -42,41 +42,60 @@
                     </svg></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #ffffff;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Products.html" style="color: #ffffff;">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="color: #ffffff;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Products.html" style="color: #ffffff;">Products</a></li>
                     <li class="nav-item"><a class="nav-link" href="About.html" style="color: #ffffff;">About us</a></li>
                     <li class="nav-item"><a class="nav-link" href="Contact.html" style="color: #ffffff;">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="highlight-clean" style="background: rgb(0,0,0);color: var(--bs-light);padding-bottom: 136px;">
-        <div class="container" style="padding-bottom: 8px;">
-            <div class="intro">
-                <h2 class="text-center" style="font-size: 53px;">Software fine tuned to perfection.</h2>
-                <p class="text-center">Get in touch or have a look at our products.</p>
-            </div>
-            <div class="buttons"><a class="btn" role="button" href="Products.html" target="_top" style="background: rgb(79,79,79);color: rgb(255,255,255);text-align: center;">Products</a><a class="btn" role="button" href="Contact.html" target="_top" style="background: rgb(55,55,55);color: rgb(255,255,255);">Contact</a><a class="btn" role="button" href="About.html" target="_top" style="background: rgb(31,31,31);color: rgb(255,255,255);text-align: center;">About us</a></div>
-        </div>
-    </section>
-    <section class="article-clean" style="color: rgb(255,255,255);background: rgb(0,0,0);">
+    <section data-aos="fade-up" data-aos-delay="200" id="products" class="projects-horizontal" style="background: rgb(0,0,0);color: rgb(255,255,255);">
         <div class="container">
-            <div class="row" style="font-family: Roboto, sans-serif;padding-bottom: 82px;">
-                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                    <div class="intro">
-                        <h1 class="text-center">A redesign for SecureVast</h1>
-                        <p class="text-center"><span class="by">by</span> <a href="#" style="color: rgb(195,195,195);">AZ Software</a><span class="date">Aug 23th, 2021</span></p><img class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center center" src="assets/img/brands_2.png" style="width: 134px;height: 134px;/*display: block;*/margin-left: auto;margin-right: auto;">
+            <div class="intro">
+                <h2 class="text-center" style="margin-top: 9px;margin-bottom: -53px;">Products</h2>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/brands_1.png" style="width: 123px;padding-top: -20px;padding-bottom: 31px;margin-left: 102px;"></a></div>
+                        <div class="col">
+                            <h3 class="name" style="font-size: 37px;">Kookaburra</h3>
+                            <p class="description">Cross-Platform, Object-Oriented Programming language. With Kookaburra you can choose between the powerful CLI, or start coding with its' intuitive syntax. <a href="https://github.com/AZProductions/Kookaburra">Read more..</a><br></p>
+                        </div>
                     </div>
-                    <div class="text">
-                        <p>We've planned a fresh redesign of <a href="https://github.com/AZProductions/SecureVast">SecureVast</a>, using the UWP or WPF framework. More info coming soon.</p>
-                        <p>The first step is&nbsp; designing the UI/UX. We've settled on the <a href="https://www.microsoft.com/design/fluent/#/">Fluent Design System</a> as the design style. After finishing the design, were going to create the core functionality using the C# framework.</p>
-                        <figure class="figure d-block"></figure>
+                </div>
+                <div class="col-sm-6 item" data-aos="fade-up" data-aos-delay="250">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/brands_2.png" style="width: 123px;padding-top: -20px;padding-bottom: 31px;margin-left: 102px;"></a></div>
+                        <div class="col">
+                            <h3 class="name" style="font-size: 37px;">SecureVast</h3>
+                            <p class="description">The Free Open-Source Password Creator. <a href="https://github.com/AZProductions/SecureVast">Read more..</a><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/brands_3.png" style="width: 101px;padding-top: -20px;padding-bottom: 31px;margin-left: 102px;"></a></div>
+                        <div class="col">
+                            <h3 class="name" style="font-size: 37px;">OpenBrowse</h3>
+                            <p class="description">Open-Source Chromium based web browser. Designed for security. <a href="https://github.com/OpenBrowse/OpenBrowse">Read more..</a><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item" data-aos="fade-up" data-aos-delay="750">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/brands_4.png" style="width: 101px;padding-top: -20px;padding-bottom: 31px;margin-left: 102px;"></a></div>
+                        <div class="col">
+                            <h3 class="name" style="font-size: 37px;">MagnaMarket</h3>
+                            <p class="description">Magna is a free open-source market watcher. Get the latest prices of Stocks, Forex, Crypto's and more. <a href="https://github.com/MagnaMarket/MagnaMarket">Read more..</a><br></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="d-xl-flex align-items-xl-end footer-clean" style="background: rgb(0,0,0);color: rgb(255,255,255);">
+    <footer class="footer-clean" style="background: rgb(0,0,0);color: rgb(255,255,255);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-3 item">
