@@ -2,7 +2,6 @@
   padding: 50px 0;
   background-color: #fff;
   color: #4b4c4d;
-  margin-top: auto;
 }
 
 .footer-clean h3 {
@@ -83,5 +82,8 @@
   margin-bottom: 0;
   font-size: 13px;
   opacity: 0.6;
+}
+
+.gradient-text {
 }
 
