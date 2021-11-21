@@ -21,3 +21,7 @@
   vertical-align: middle;
 }
 
+.dropdown-item:hover {
+  color: aliceblue;
+}
+
