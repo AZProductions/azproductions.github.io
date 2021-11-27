@@ -15,7 +15,7 @@ span.plus-k::after {
 }
 
 span.plus::after {
-  content: '+';
+  content: 'k+';
 }
 
 .Justify-Flex-Center {
