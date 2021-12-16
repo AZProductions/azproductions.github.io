@@ -16,22 +16,19 @@
         <loc>https://www.azsoftware.eu.org/downloads/kookaburra/latest.html</loc>
     </url>
     <url>
-        <loc>https://www.azsoftware.eu.org/downloads/index.html</loc>
-    </url>
-    <url>
-        <loc>https://www.azsoftware.eu.org/event/index.html</loc>
-    </url>
-    <url>
         <loc>https://www.azsoftware.eu.org/products/index.html</loc>
-    </url>
-    <url>
-        <loc>https://www.azsoftware.eu.org/research/index.html</loc>
     </url>
     <url>
         <loc>https://www.azsoftware.eu.org/404.html</loc>
     </url>
     <url>
+        <loc>https://www.azsoftware.eu.org/downloads.html</loc>
+    </url>
+    <url>
         <loc>https://www.azsoftware.eu.org/index.html</loc>
+    </url>
+    <url>
+        <loc>https://www.azsoftware.eu.org/research.html</loc>
     </url>
     <url>
         <loc>https://www.azsoftware.eu.org/support.html</loc>
