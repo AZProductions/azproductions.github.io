@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
     <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="/assets/css/brand.css">
     <link rel="stylesheet" href="/assets/css/cards.css">
@@ -42,39 +41,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 
-<body>
-    <div id="alert-custom" style="background: #1F1F20;position: sticky;width: 100%;top: 0;left: 0;color: rgb(255,255,255);z-index: 99;"><script>
-// Set the date we're counting down to
-var countDownDate = new Date("Dec 5, 2021 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="countdown"
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-        <h1 style="font-size: 14px;text-align: center;padding-top: 15px;padding-bottom: 15px;align-items: center;"><button class="btn btn-primary" type="button" style="text-align: right;float: right;background: rgba(228,228,228,0);border-style: none;margin: 0px;top: 0;margin-top: -10px;padding-right: 25px;display: flex;align-items: center;" onclick="var x = document.getElementById(&quot;alert-custom&quot;); x.style.display = &quot;none&quot;;"><i class="material-icons" style="vertical-align: middle;">close</i></button>We're migrating to a new infrastructure. <a href="https://dns.azsoftware.eu.org">Check the Status.</a></h1>
-    </div>    <script type="text/javascript"> (function(window, document, dataLayerName, id) { window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script'); function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"} var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1); var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):""; tags.async=!0,tags.src="https://azsoftware.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts); !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]); })(window, document, 'dataLayer', '18280fdf-052f-4242-923b-9ab05335a9c7'); </script><noscript><iframe src="https://azsoftware.containers.piwik.pro/18280fdf-052f-4242-923b-9ab05335a9c7/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script src="https://betteruptime.com/widgets/announcement.js" data-id="132060" async="async" type="text/javascript"></script>
+<body>    <script type="text/javascript"> (function(window, document, dataLayerName, id) { window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script'); function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"} var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1); var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):""; tags.async=!0,tags.src="https://azsoftware.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts); !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]); })(window, document, 'dataLayer', '18280fdf-052f-4242-923b-9ab05335a9c7'); </script><noscript><iframe src="https://azsoftware.containers.piwik.pro/18280fdf-052f-4242-923b-9ab05335a9c7/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script src="https://betteruptime.com/widgets/announcement.js" data-id="132060" async="async" type="text/javascript"></script>
     <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="font-family: Roboto, sans-serif;background: rgba(255,255,255,0);">
         <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="/assets/img/Logo/render.svg" style="width: 50px;height: 50px;pointer-events: none;" alt="AZ Software Logo">
             <div class="collapse navbar-collapse" id="navcol-1">
