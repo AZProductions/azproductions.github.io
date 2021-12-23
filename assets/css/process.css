@@ -1,6 +1,8 @@
 .features-boxed {
   color: #313437;
   background-color: #eef4f7;
+  position: relative;
+  z-index: 99;
 }
 
 .features-boxed p {

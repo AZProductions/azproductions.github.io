@@ -47,6 +47,8 @@
 .navigation-clean.navbar .navbar-nav .nav-link {
   padding-left: 18px;
   padding-right: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link {
@@ -68,6 +70,8 @@
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
   line-height: 2;
   color: #37434d;
+  display: flex;
+  align-items: center;
 }
 
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
