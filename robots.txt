@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.azsoftware.org
+
+# Sitemaps
+Sitemap: https://www.azsoftware.org/sitemap.xml
